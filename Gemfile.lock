@@ -1,21 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    childprocess (1.0.1)
-      rake (< 13.0)
-    dotenv (2.7.5)
+    base64 (0.3.0)
     interactor (3.1.1)
-    rake (12.3.3)
-    rubyzip (1.2.3)
-    selenium-webdriver (3.142.3)
-      childprocess (>= 0.5, < 2.0)
-      rubyzip (~> 1.2, >= 1.2.2)
+    logger (1.7.0)
+    rexml (3.4.4)
+    rubyzip (3.4.0)
+    selenium-webdriver (4.49.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 4.0)
+      websocket (~> 1.0)
+    websocket (1.2.11)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv
   interactor
   selenium-webdriver
 
